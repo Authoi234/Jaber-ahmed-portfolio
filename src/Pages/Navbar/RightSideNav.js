@@ -9,7 +9,7 @@ const RightSideNav = () => {
                 <a href="#introduce"><FaHome className='text-4xl py-2'></FaHome></a>
                 <a href="#about"><FaRegUser className='text-4xl py-2'></FaRegUser></a>
                 <a href="#resume"><FaBriefcase className='text-4xl py-2'></FaBriefcase></a>
-                <a href="#"><FaStream className='text-4xl py-2'></FaStream></a>
+                <a href="#services"><FaStream className='text-4xl py-2'></FaStream></a>
                 <a href="#"><FaShapes className='text-4xl py-2'></FaShapes></a>
                 <a href="#"><FaGripVertical className='text-4xl py-2'></FaGripVertical></a>
                 <a href="#"><MdOutlineInsertComment className='text-4xl py-2'></MdOutlineInsertComment></a>

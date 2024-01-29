@@ -5,8 +5,19 @@
 
 html{
   scroll-behavior: smooth;
-  scroll-padding: 1rem;
 }
+
+::-webkit-scrollbar{
+  width: 12px;
+}
+::-webkit-scrollbar-thumb{
+  background: linear-gradient(transparent, skyblue, cyan);
+  border-radius: 12px;
+}
+::-webkit-scrollbar-thumb:hover{
+  background: linear-gradient(transparent, rgb(23, 116, 255), royalblue);
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
