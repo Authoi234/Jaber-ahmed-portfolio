@@ -3,7 +3,7 @@ import { FaRegUser } from 'react-icons/fa6';
 
 const About = () => {
     return (
-        <div className='mt-40 mb-40'>
+        <div id='about' className='mt-40 mb-40'>
             <div className='text-start ml-3 pl-6 mt-5'>
                 <div className='pl-6'>
                     <span className='border px-3 py-1 rounded-full inline-flex items-center' data-aos="fade-up"> <FaRegUser className='mr-2'></FaRegUser> ABOUT</span>
