@@ -1,3 +1,15 @@
+@keyframes rotatation {
+  0%{
+    transform: rotate(0deg);
+  }
+  50%{
+    transform: scale3d(1.002, 1.008,1.002);
+  }
+  100%{
+    transform: rotate3d(2, 1, 2, 1deg);
+  }
+}
+
 .App {
   text-align: center;
 }

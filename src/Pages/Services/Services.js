@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaBezierCurve, FaCode, FaStream } from 'react-icons/fa';
 import { FaLaptopCode } from 'react-icons/fa6';
-import { IoRocketOutline } from "react-icons/io5";
+import { IoIosGlobe } from "react-icons/io";
 
 const Services = () => {
     return (
@@ -46,7 +46,7 @@ const Services = () => {
                             <p className="text-white py-4 group-hover:underline decoration-gray-50">8 Projects</p>
                         </div>
                         <div className='lg:ml-40'>
-                            <IoRocketOutline className='text-green-400 text-3xl'></IoRocketOutline>
+                            <IoIosGlobe className='text-green-400 text-3xl'></IoIosGlobe>
                         </div>
                     </div>
                 </div>
