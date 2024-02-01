@@ -6,7 +6,7 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 
 const Main = () => {
     return (
-        <div className='lg:flex items-center block'>
+        <div className='xl:flex items-center block'>
             <div className='mx-1 justify-end block lg:fixed lg:top-0'>
                 <LeftSideNav></LeftSideNav>
             </div>

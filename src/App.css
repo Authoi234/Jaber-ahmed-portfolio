@@ -10,6 +10,15 @@
   }
 }
 
+.split-image-container{
+  background-image: url('./assets/project.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
 .App {
   text-align: center;
 }

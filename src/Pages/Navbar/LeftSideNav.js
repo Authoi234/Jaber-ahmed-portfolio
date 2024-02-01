@@ -1,10 +1,11 @@
 import React from 'react';
 import { FaInstagram, FaTwitter, FaDribbble, FaGithub } from "react-icons/fa6";
 import { GoMail } from "react-icons/go";
+import JaberAhmed from "../../assets/jaber.jpg";
 
 const LeftSideNav = () => {
     return (
-        <div className='border border-neutral rounded-3xl h-[100vh] mr-3'>
+        <div className='border border-neutral rounded-3xl h-[100vh] mr-3 overflow-auto'>
             <div className="card w-auto md:w-96 bg-base-100 shadow-xl">
                 <div className='flex items-center justify-between mx-7 mt-4'>
                     <div className="indicator">
@@ -14,7 +15,7 @@ const LeftSideNav = () => {
                     <p className='text-white'>Ethical Hacker <br /> & Developer</p>
                 </div>
                 <figure className="px-10 pt-6 rounded-xl size-3/4 ml-10">
-                    <img src="https://i.ibb.co/gVYmKZD/1681418117157.jpg" alt="" className="rounded-3xl avatar w-full" />
+                    <img src={JaberAhmed} alt="" className="rounded-3xl avatar w-full" />
                 </figure>
                 <div className="card-body items-center text-center">
                     <h2 className="text-2xl h-5 text-white font-bold">jaber.ahmed4770@gmail.com</h2>
