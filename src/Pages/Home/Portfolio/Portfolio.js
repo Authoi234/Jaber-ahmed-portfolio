@@ -29,12 +29,12 @@ const Portfolio = () => {
                     <img className='w-full h-full' src={require('../../../assets/project-view.png')} alt="" />
                 </div>
             </div>
-            <div data-aos="fade-up" className="rounded-lg group my-10">
+            <div className="rounded-lg group my-10">
                 <div className='flex'>
-                    <div className='w-full rounded-2xl lg:flex lg:justify-end items-end mx-2' style={{ backgroundImage: `url(${githubProfileSongHalf})`, width: '29.5vw', height: '70vh', backgroundSize: 'cover', }} >
+                    <div data-aos="fade-right" className='w-full rounded-2xl lg:flex lg:justify-end items-end mx-2' style={{ backgroundImage: `url(${githubProfileSongHalf})`, width: '29.5vw', height: '70vh', backgroundSize: 'cover', }} >
                         <button className="btn group-hover:bg-white group-hover:text-black px-5 py-1 mx-4 my-4 transition-all hover">Java</button>
                     </div>
-                    <div className='w-full rounded-2xl lg:flex lg:justify-end items-end mx-2' style={{ backgroundImage: `url(${githubProfileSongHalf2})`, width: '29.5vw', height: '70vh', backgroundSize: 'cover', }} >
+                    <div data-aos="fade-left" className='w-full rounded-2xl lg:flex lg:justify-end items-end mx-2' style={{ backgroundImage: `url(${githubProfileSongHalf2})`, width: '29.5vw', height: '70vh', backgroundSize: 'cover', }} >
 
                     </div>
                 </div>

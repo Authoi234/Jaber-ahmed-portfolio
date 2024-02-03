@@ -5,6 +5,7 @@ import Resume from '../Resume/Resume';
 import Services from '../../Services/Services';
 import Skills from '../Skills/Skills';
 import Portfolio from '../Portfolio/Portfolio';
+import Testimonial from '../Testimonial/Testimonial';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <Services></Services>
             <Skills></Skills>
             <Portfolio></Portfolio>
+            <Testimonial></Testimonial>
         </div>
     );
 };
