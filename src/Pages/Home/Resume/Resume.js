@@ -15,7 +15,7 @@ const Resume = () => {
                 </div>
                 <div className='mt-6' data-aos="fade-down-left">
                     <ul className="steps steps-vertical group">
-                        <li data-content="" className="py-10 step step-neutral my-3 hover:text-green-400 hover:step-primary transition-all mt-10 cursor-none"><div>
+                        <li data-content="" className="py-10 step step-neutral my-3 hover:text-green-400 hover:step-primary transition-all mt-10 cursor-crosshair"><div>
                             <div>
                                 <p className='text-lg pb-3 text-start'>2024 - Present</p>
                                 <h2 className='text-3xl text-white text-start'>Ethical Hacker</h2>
@@ -26,7 +26,7 @@ const Resume = () => {
                                 <h5 className=" text-gray-400 text-sm  text-start">Scolarship holder from Bangladesh to Romania</h5>
                             </div>
                         </div></li>
-                        <li data-content="" className="step step-neutral my-3 hover:text-green-400 hover:step-accent transition-all cursor-none"><div>
+                        <li data-content="" className="step step-neutral my-3 hover:text-green-400 hover:step-accent transition-all cursor-crosshair"><div>
                             <div>
                                 <p className='text-lg pb-3 text-start'>2019-2024</p>
                                 <h2 className='text-3xl text-white text-start'>Web Developer & Blood Donner</h2>

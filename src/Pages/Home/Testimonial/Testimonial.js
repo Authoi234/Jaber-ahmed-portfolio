@@ -34,7 +34,7 @@ const testimonialData = [
 
 const Testimonial = () => {
     return (
-        <div className='text-start mt-5'>
+        <div id='testimonial' className='text-start mt-5'>
             <div data-aos="fade-up" className=' ml-3 pl-4'>
                 <span className='border px-3 py-1 rounded-full inline-flex items-center'> <MdOutlineInsertComment className='mr-2'></MdOutlineInsertComment> TESTIMONIAL</span>
                 <div className="pl-6">
@@ -45,18 +45,18 @@ const Testimonial = () => {
                 {
                     testimonialData.map(slide => <div id={`slide${slide.id}`} className="carousel-item w-full p-8">
                         <div className="mx-5 pl-5">
-                            <div className="border-2 border-gray-700 px-5 py-4 group">
-                                <div className='flex'>
-                                    <img src={slide.authorImg} className='avatar w-24 rounded-full' alt="" />
+                            <div className="border-2 border-gray-700 py-10 px-4 group w-full rounded-2xl">
+                                <div className='flex items-center py-4'>
+                                    <img src={slide.authorImg} className='avatar w-24 rounded-full mx-4' alt="" />
                                     <div className="pl-3">
-                                        <h1 className='text-white group-hover:text-green-400 transition-all text-lg'>{slide.name}</h1>
+                                        <h1 className='text-white group-hover:text-green-400 transition-all text-xl font-semibold'>{slide.name}</h1>
                                     </div>
                                 </div>
-                                <div className='break-words px-4 py-3 text-xl text-white'>{slide.paragraph}</div>
+                                <div className='break-words px-4 py-3 text-2xl text-white'>{slide.paragraph}</div>
                             </div>
-                            <div className='mx-4 my-3'>
-                                <a href={`#slide${slide.prev}`} className="btn btn-circle mx-2 btn-info text-white">❮</a>
-                                <a href={`#slide${slide.next}`} className="btn btn-circle mx-2 btn-info text-white">❯</a>
+                            <div className='text-center my-3'>
+                                <a href={`#slide${slide.prev}`} className="btn btn-circle mx-2 text-xl w-1/6 btn-info btn-outline">❮</a>
+                                <a href={`#slide${slide.next}`} className="btn btn-circle mx-2 text-xl w-1/6 btn-info btn-outline">❯</a>
                             </div>
                         </div>
                     </div>)

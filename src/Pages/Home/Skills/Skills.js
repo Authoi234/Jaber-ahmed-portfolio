@@ -28,6 +28,7 @@ import osintImg from '../../../assets/osint.jpg';
 import figmaImg from '../../../assets/figma.png';
 import framerImg from '../../../assets/framer.png';
 import goImg from '../../../assets/go.png';
+
 const Skills = () => {
     const [filterPercent, setFilterPercent] = useState('95');
     const [hideVisible, setHideVisible] = useState('flex');
@@ -185,11 +186,14 @@ const Skills = () => {
                     {
                         advantages.filter(advantage => advantage.percentage >= filterPercent).map(advantage => <div className='my-4 mx-4 group tooltip tooltip-top' data-tip={`Jaber is the master of ${advantage.name}`} style={{ animation: 'rotatation 0.5s linear infinite', transition: 'all 3s ease' }}>
                             <div className='shadow-2xl shadow-gray-600 border border-gray-700 rounded-full hover:shadow-gray-400 transition-all py-5 px-3 hover:translate-x-3 hover:scale-y-110 hover:rotate-3'>
-                                <img className='w-full rounded-lg' src={advantage.img} alt="" />
-                                <h1 className="text-3xl py-2  text-green-400 font-semibold">{advantage.percentage}</h1>
+                                <div className='inset-4 shadow-sm shadow-gray-800 rounded-full bg-gray-800 py-3 px-3 transform'>
+                                    <img className='w-full rounded-lg' src={advantage.img} alt="" />
+                                    <h1 className="text-3xl py-2  text-green-400 font-semibold">{advantage.percentage}</h1>
+                                </div>
                             </div>
                             <h2 className="text-2xl text-white group-hover:underline group-hover:decoration-wavy group-hover:decoration-green-400">{advantage.name}</h2>
-                        </div>)
+                        </div>
+                        )
                     }
                 </div>
                 <div className="flex justify-center items-center">
