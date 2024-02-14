@@ -35,8 +35,8 @@ const testimonialData = [
 const Testimonial = () => {
     return (
         <div id='testimonial' className='text-start mt-5'>
-            <div data-aos="fade-up" className=' ml-3 pl-4'>
-                <span className='border px-3 py-1 rounded-full inline-flex items-center'> <MdOutlineInsertComment className='mr-2'></MdOutlineInsertComment> TESTIMONIAL</span>
+            <div data-aos="fade-up" className='ml-4 pl-4'>
+                <span className='border py-1 px-3 rounded-full inline-flex items-center'> <MdOutlineInsertComment className='mr-2'></MdOutlineInsertComment> TESTIMONIAL</span>
                 <div className="pl-6">
                     <h1 className="text-6xl font-semibold text-white my-10">Trusted By <span className='text-green-400'>Hundered Clients</span></h1>
                 </div>

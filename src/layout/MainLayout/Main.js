@@ -10,14 +10,14 @@ const Main = () => {
             <div className='mx-1 justify-end block lg:fixed lg:top-0'>
                 <LeftSideNav></LeftSideNav>
             </div>
-            <div className='mt-52 mx-1 lg:mt-0 lg:ml-96 lg:mr-14 flex-wrap break-words'>
+            <div className='mt-52 lg:mt-0 lg:ml-[370px] lg:mr-3 flex-wrap break-words'>
                 <Outlet></Outlet>
             </div>
             <div className='mx-1'>
                 <div className='absolute top-32 right-[43px]'>
                     <GiHamburgerMenu className='text-5xl border p-2 rounded-full cursor-pointer'></GiHamburgerMenu>
                 </div>
-                <div className='hidden lg:flex border py-3 border-gray-600 px-2 rounded-full' style={{ left: '93%', top: '20%', position: 'fixed' }}>
+                <div className='hidden lg:flex border py-3 border-gray-600 px-2 rounded-full' style={{ left: '93%', top: '20%', position: 'fixed', marginLeft: '30px'}}>
                     <RightSideNav></RightSideNav>
                 </div>
             </div>
