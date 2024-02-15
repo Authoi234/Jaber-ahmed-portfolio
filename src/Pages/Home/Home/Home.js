@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Introduce from '../Introduce/Introduce';
 import About from '../About/About';
 import Resume from '../Resume/Resume';
@@ -11,19 +11,31 @@ import Pricing from '../Pricing/Pricing';
 import ContactUs from '../ContactUs/ContactUs';
 
 const Home = () => {
+
+    useEffect(() => {
+        window.addEventListener("load", function(){
+            setTimeout(() => {
+                document.getElementById('preloader').style.display = 'none'
+            }, 1000)
+        });
+    }, [])
+
     return (
-        <div>
-            <Introduce></Introduce>
-            <About></About>
-            <Resume></Resume>
-            <Services></Services>
-            <Skills></Skills>
-            <Portfolio></Portfolio>
-            <Testimonial></Testimonial>
-            <Brands></Brands>
-            <Pricing></Pricing>
-            <ContactUs></ContactUs>
-        </div>
+        <>
+            <div id="preloader"></div>
+            <div>
+                <Introduce></Introduce>
+                <About></About>
+                <Resume></Resume>
+                <Services></Services>
+                <Skills></Skills>
+                <Portfolio></Portfolio>
+                <Testimonial></Testimonial>
+                <Brands></Brands>
+                <Pricing></Pricing>
+                <ContactUs></ContactUs>
+            </div>
+        </>
     );
 };
 
