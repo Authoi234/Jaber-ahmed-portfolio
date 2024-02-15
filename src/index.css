@@ -9,14 +9,18 @@ html{
 
 
 ::-webkit-scrollbar{
-  width: 12px;
+  width: 10px;
+}
+::-webkit-scrollbar:hover{
+  width: 15px;
 }
 ::-webkit-scrollbar-thumb{
-  background: linear-gradient(transparent, skyblue, cyan);
+  background: linear-gradient(transparent , cyan);
   border-radius: 12px;
 }
 ::-webkit-scrollbar-thumb:hover{
-  background: linear-gradient(transparent, rgb(23, 116, 255), royalblue);
+  background: linear-gradient(transparent, royalblue);
+  border-radius: 0px;
 }
 
 body {

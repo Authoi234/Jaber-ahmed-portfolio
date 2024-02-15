@@ -27,7 +27,7 @@ const LeftSideNav = () => {
                         <FaDribbble className='cursor-pointer mx-2 p-5 text-6xl border rounded-full text-gray-400 border-gray-400 hover:border-green-400 hover:border-2 hover:text-green-400 transition-all'></FaDribbble>
                         <FaGithub className='cursor-pointer mx-2 p-5 text-6xl border rounded-full text-gray-400 border-gray-400 hover:border-green-400 hover:border-2 hover:text-green-400 transition-all'></FaGithub>
                     </div>
-                    <button className="w-full py-4 text-xl rounded-full border bg-green-400 text-white  hover:border-green-400 hover:bg-neutral hover:text-green-400 transition-all flex justify-center items-center"> <GoMail className='mr-2'></GoMail> HIRE ME!</button>
+                    <button className="w-full py-4 text-xl rounded-full border bg-green-400 text-white  hover:border-green-400 hover:bg-neutral hover:text-green-400 transition-all flex justify-center items-center"> <GoMail className='mr-2'></GoMail> <a href="#contact-us">HIRE ME!</a></button>
                 </div>
             </div>
         </div>

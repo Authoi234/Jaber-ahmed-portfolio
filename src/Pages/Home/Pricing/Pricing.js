@@ -38,7 +38,7 @@ const Pricing = () => {
                                     </ul>
                                 </div>
                                 <div className="card-actions mt-16">
-                                    <button className="btn border w-full rounded-full bg-green-400 text-white hover:border hover:border-green-400 hover:text-green-400 text-xl h-14">PICK THIS PACKAGE</button>
+                                    <button className="btn border w-full rounded-full bg-green-400 text-white hover:border hover:border-green-400 hover:text-green-400 text-xl h-14"><a href="#contact-us">PICK THIS PACKAGE</a></button>
                                 </div>
                             </div>
                         </div>
@@ -71,13 +71,13 @@ const Pricing = () => {
                                     </ul>
                                 </div>
                                 <div className="card-actions mt-8">
-                                    <button className="btn border w-full rounded-full bg-green-400 text-white hover:border hover:border-green-400 hover:text-green-400 text-xl h-14">PICK THIS PACKAGE</button>
+                                    <button className="btn border w-full rounded-full bg-green-400 text-white hover:border hover:border-green-400 hover:text-green-400 text-xl h-14"><a href="#contact-us">PICK THIS PACKAGE</a></button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="text-center"><p className='text-lg text-white'>Don't find any package match with your plan! Want to setup a new tailor-made package for only you?.<span className='underline decoration-green-400 text-green-400'><a href="#">Contact Us</a></span></p></div>
+                <div className="text-center"><p className='text-lg text-white'>Don't find any package match with your plan! Want to setup a new tailor-made package for only you?.<span className='underline decoration-green-400 text-green-400'><a href="#contact-us">ContactUs</a></span></p></div>
             </div>
         </div>
     );
