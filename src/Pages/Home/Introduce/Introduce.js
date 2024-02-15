@@ -12,7 +12,7 @@ const Introduce = () => {
                 </div>
                 <p className="text-lg pl-6 mb-10">I design and code beautifully simple things and i love what i do. Just simple like that!</p>
                 <a className='flex justify-end mb-10 no-underline' href='#portfolio'>
-                    <button className='btn btn-circle w-40 h-40 p-2 overflow-hidden'><img className='animate-spin transition-all' src="https://i.ibb.co/Sntx4fg/download.png" alt="" /><FaArrowDown className='border rounded-full text-6xl -mt-40 animate-pulse'></FaArrowDown></button>
+                    <button className='btn btn-circle w-40 h-40 p-2 overflow-hidden mr-32'><img className='animate-spin transition-all' src="https://i.ibb.co/Sntx4fg/download.png" alt="" /><FaArrowDown className='border rounded-full text-6xl -mt-40 animate-pulse'></FaArrowDown></button>
                 </a>
             </div>
             <div className='flex justify-evenly pt-10'>
