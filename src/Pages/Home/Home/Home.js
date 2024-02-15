@@ -12,11 +12,9 @@ import ContactUs from '../ContactUs/ContactUs';
 
 const Home = () => {
 
-    useEffect(() => {
-        window.addEventListener("load", function(){
-                document.getElementById('preloader').style.display = 'none'
-        });
-    }, [])
+    window.addEventListener("load", function () {
+        document.getElementById('preloader').style.display = 'none'
+    });
 
     return (
         <>
