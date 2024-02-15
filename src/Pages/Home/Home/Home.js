@@ -14,9 +14,7 @@ const Home = () => {
 
     useEffect(() => {
         window.addEventListener("load", function(){
-            setTimeout(() => {
                 document.getElementById('preloader').style.display = 'none'
-            }, 1000)
         });
     }, [])
 
