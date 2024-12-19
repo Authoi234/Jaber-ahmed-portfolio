@@ -182,7 +182,7 @@ const Skills = () => {
                 <h1 className="text-7xl font-semibold text-white my-10">My <span className='text-green-400'>Advantages</span></h1>
             </div>
             <div className='text-center'>
-                <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5' data-aos="zoom-in">
+                <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5 w-11/12' data-aos="zoom-in">
                     {
                         advantages.filter(advantage => advantage.percentage >= filterPercent).map(advantage => <div className='my-4 mx-4 group tooltip tooltip-top' data-tip={`Jaber is the master of ${advantage.name}`} style={{ animation: 'rotatation 0.5s linear infinite', transition: 'all 3s ease' }}>
                             <div className='shadow-2xl shadow-gray-600 border border-gray-700 rounded-full hover:shadow-gray-400 transition-all py-5 px-3 hover:translate-x-3 hover:scale-y-110 hover:rotate-3'>

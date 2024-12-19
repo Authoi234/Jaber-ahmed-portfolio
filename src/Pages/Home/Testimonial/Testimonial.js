@@ -44,7 +44,7 @@ const Testimonial = () => {
             <div className="carousel w-full my-5 p-2">
                 {
                     testimonialData.map(slide => <div id={`slide${slide.id}`} className="carousel-item w-full p-8">
-                        <div className="mx-5 pl-5">
+                        <div className="mx-5 pl-5 w-11/12">
                             <div className="border-2 border-gray-700 py-10 px-4 group w-full rounded-2xl">
                                 <div className='flex items-center py-4'>
                                     <img src={slide.authorImg} className='avatar w-24 rounded-full mx-4' alt="" />
